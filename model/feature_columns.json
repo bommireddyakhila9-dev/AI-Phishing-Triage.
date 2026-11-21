@@ -1,0 +1,22 @@
+[
+  "url_length",
+  "domain_length",
+  "num_dots",
+  "num_hyphens",
+  "num_underscores",
+  "num_digits",
+  "num_special_chars",
+  "num_subdomains",
+  "is_ip_address",
+  "has_https",
+  "has_suspicious_keywords",
+  "is_shortened",
+  "has_at_symbol",
+  "has_unusual_port",
+  "has_encoded_chars",
+  "excessive_redirect_signs",
+  "suspicious_tld",
+  "domain_entropy",
+  "brand_impersonation",
+  "suspicious_query_params"
+]

@@ -1,0 +1,169 @@
+{
+  "best_model": "Random Forest",
+  "classes": [
+    "Benign",
+    "Malicious",
+    "Phishing",
+    "Suspicious"
+  ],
+  "feature_count": 20,
+  "total_samples": 80,
+  "train_samples": 64,
+  "test_samples": 16,
+  "models_evaluated": {
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "classes": [
+        "Benign",
+        "Malicious",
+        "Phishing",
+        "Suspicious"
+      ],
+      "classification_report": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "Malicious": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "Phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "Suspicious": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 16.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 16.0
+        }
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.8125,
+      "precision": 0.8125,
+      "recall": 0.8125,
+      "f1_score": 0.8071,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "classes": [
+        "Benign",
+        "Malicious",
+        "Phishing",
+        "Suspicious"
+      ],
+      "classification_report": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "Malicious": {
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5714285714285714,
+          "support": 3.0
+        },
+        "Phishing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 4.0
+        },
+        "Suspicious": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "accuracy": 0.8125,
+        "macro avg": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1-score": 0.7428571428571428,
+          "support": 16.0
+        },
+        "weighted avg": {
+          "precision": 0.8125,
+          "recall": 0.8125,
+          "f1-score": 0.8071428571428572,
+          "support": 16.0
+        }
+      }
+    }
+  }
+}

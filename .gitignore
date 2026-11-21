@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+data/*.db
+data/soar_lite.db
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+dist/
+build/
